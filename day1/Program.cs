@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace day1
+namespace prac1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Monitor name = new Monitor();
+            name.Input();
+            name.Mon();
+            Console.ReadKey();
         }
     }
 }
